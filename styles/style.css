@@ -164,7 +164,7 @@ nav{
 .facts-cards{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .fact{
     border: 1px solid rgb(255, 144, 14);
@@ -177,6 +177,19 @@ nav{
     color: rgb(66, 66, 66);
     font-weight: 600;
     font-size: 2.3rem;
+}
+
+/* sponsors style */
+.sponsor-logos{
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.sponsor-logos img{
+    width: 132px;
+    height: 30px;
+    filter: grayscale(100%);
 }
 /* media query for small devices */
 @media screen and (max-width:576px) {
